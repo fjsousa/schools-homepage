@@ -1,0 +1,27 @@
+.content-cities-list {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+.content-cities-list a {
+  color: #313233;
+  text-decoration: none;
+}
+.cities-list-arrow {
+  top: 70px;
+  font-size: 35px;
+  text-align: left;
+  position: absolute;
+  margin-left: 15px;
+}
+.cities-list-arrow a {
+  color: #313233;
+  text-decoration: none;
+}
+@media only screen and (min-width: 1050px) {
+  .cities-list-arrow {
+    display: none;
+  }
+}

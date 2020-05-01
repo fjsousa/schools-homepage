@@ -1,0 +1,53 @@
+.about-ct {
+  color: #313233;
+  padding-top: 30px;
+  font-family: 'montserrat normal', Tahoma, serif;
+  top: 60px;
+  position: relative;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  margin-left: 5%;
+  margin-bottom: 60px;
+}
+@media only screen and (min-width: 1050px) {
+  .about-ct {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+.about-title {
+  font-family: 'LeagueGothic', Tahoma, serif;
+  text-align: center;
+  color: #a8a094;
+  font-size: 45px;
+  font-weight: lighter;
+}
+p.about-description {
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+.about-description a {
+  text-decoration: none !important;
+  color: #bc363f;
+}
+.description-ct {
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 1050px) {
+  .description-ct {
+    -webkit-align-self: center;
+    align-self: center;
+    -ms-flex-item-align: center;
+    display: inline-block;
+    width: 79%;
+    padding: 10px 0 10px 0;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  p.description {
+    text-align: left;
+    padding: 0 100px 0 100px;
+  }
+}

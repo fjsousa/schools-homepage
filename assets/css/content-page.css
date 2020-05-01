@@ -1,0 +1,51 @@
+.content-page-ct {
+  color: #313233;
+  padding-top: 30px;
+  font-family: Tahoma, Verdana, serif;
+  top: 60px;
+  position: relative;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  margin-left: 5%;
+  margin-bottom: 60px;
+}
+@media only screen and (min-width: 1050px) {
+  .content-page-ct {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+.content-page-ct ul.summary li {
+  list-style-type: decimal;
+  line-height: 2;
+  color: #bc363f;
+}
+.content-page-ct ul.content li {
+  list-style-type: decimal;
+  color: #a8a094;
+}
+.content-page-ct ul.content li p {
+  color: #313233;
+}
+.content-page-ct .title {
+  font-family: 'LeagueGothic', Tahoma, serif;
+  text-align: left;
+  color: #a8a094;
+  font-size: 45px;
+  font-weight: lighter;
+}
+.content-page-ct h2 {
+  font-family: 'LeagueGothic', Tahoma, serif;
+  text-align: left;
+  color: #a8a094;
+  font-weight: lighter;
+}
+.content-page-ct p {
+  padding: 0 10px 0 10px;
+  text-align: left;
+}
+.content-page-ct a {
+  text-decoration: none !important;
+  color: #bc363f;
+}

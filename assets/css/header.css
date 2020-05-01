@@ -1,0 +1,140 @@
+.header {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  background-color: #222;
+}
+@media only screen and (min-width: 1050px) {
+  .header {
+    position: fixed;
+    z-index: 999999;
+  }
+}
+.logo {
+  height: 70%;
+  float: left;
+  position: absolute;
+  bottom: 15%;
+  left: 7.5%;
+}
+@media only screen and (orientation: portrait) and (min-width: 768px) {
+  .logo {
+    left: 30px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 568px) {
+  .logo {
+    left: 30px;
+  }
+}
+.navigator {
+  display: none;
+}
+@media only screen and (min-width: 1050px) {
+  .navigator {
+    font-family: 'montserrat regular', Tahoma, serif;
+    height: 100%;
+    width: 70%;
+    z-index: 999999;
+    display: block;
+    float: right;
+  }
+  .navigator ul {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    margin-bottom: 0;
+  }
+  .navigator ul li {
+    list-style-type: none;
+    margin-right: 15px;
+    float: left;
+  }
+  .navigator ul li .menu-item {
+    font-size: 12px;
+    color: #f6f5f5;
+    display: inline;
+  }
+}
+#menu-btn {
+  color: #f6f5f5;
+  font-size: 25px;
+  z-index: 999999;
+  right: 7.5%;
+  position: absolute;
+  bottom: 14px;
+}
+@media only screen and (min-width: 1050px) {
+  #menu-btn {
+    display: none;
+  }
+}
+@media only screen and (orientation: portrait) and (min-width: 768px) {
+  #menu-btn {
+    right: 30px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 568px) {
+  #menu-btn {
+    right: 30px;
+  }
+}
+#menu-modal {
+  margin-top: 60px;
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #f6f5f5;
+}
+@media only screen and (min-width: 1050px) {
+  #menu-modal {
+    display: none;
+  }
+}
+#menu-content {
+  padding-top: 20px;
+  font-size: 50px;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+#menu-content ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+#menu-content li {
+  list-style-type: none;
+}
+#menu-content li a {
+  color: #313233;
+}
+#menu-close {
+  display: none;
+  color: #f6f5f5;
+  font-size: 25px;
+  z-index: 999999;
+  right: 7.5%;
+  position: absolute;
+  bottom: 14px;
+}
+@media only screen and (min-width: 1050px) {
+  #menu-close {
+    display: none;
+  }
+}
+@media only screen and (orientation: portrait) and (min-width: 768px) {
+  #menu-close {
+    right: 30px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 568px) {
+  #menu-close {
+    right: 30px;
+  }
+}
